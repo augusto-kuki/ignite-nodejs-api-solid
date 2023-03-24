@@ -26,6 +26,6 @@ export class RegisterUseCase {
       password_hash,
     });
 
-    return user;
+    return { user };
   }
 }
